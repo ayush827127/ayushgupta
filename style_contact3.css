@@ -23,7 +23,7 @@ h1 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: url('/bg9.jpg') center center/cover;
+    background: url('bg9.jpg') center center/cover;
 }
 
 .myinput {
