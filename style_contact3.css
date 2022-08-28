@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 23px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    min-height: 68vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url('/bg9.jpg') center center/cover;
+}
+
+.myinput {
+    margin: 6px 0px;
+    padding: 9px;
+    width: 50vw;
+    border: 2px solid black;
+    border-radius: 11px;
+}
+
+.btn {
+    border: 2px solid black;
+    padding: 9px 30px;
+    margin: 10px 0px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: pink;
+    color: black;
+    cursor: pointer;
+}
