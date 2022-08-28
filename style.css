@@ -61,11 +61,11 @@ main {
 
 main #intro {
     padding-left: 3rem;
-    background: url('/bg2.jpeg') center center/cover;
+    background: url('bg2.jpeg') center center/cover;
 }
 
  #call a{
-    background: url('/call.jpg') center center/cover;
+    background: url('call.jpg') center center/cover;
     width: 9vw;
     height: 7vh;
     border-radius: 190px;
@@ -117,7 +117,7 @@ main #intro #sort_intro .btn:hover {
 }
 
 main #service {
-    background: url('/bg7.jpg') bottom center/cover;
+    background: url('bg7.jpg') bottom center/cover;
 }
 
 main #service .things {
