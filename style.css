@@ -1,0 +1,233 @@
+* {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+/* Header Styling */
+#navbar {
+    background-color: black;
+    display: flex;
+}
+
+#navbar .logo {
+    color: rebeccapurple;
+    margin-right: 50px;
+}
+
+#navbar .logo img {
+    width: 5vw;
+    height: 9vh;
+    border-radius: 13rem;
+    margin-left: 2rem;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar ul li {
+    margin: 9px 20px;
+    list-style: none;
+
+}
+
+#navbar ul li a {
+    padding: 9px 12px;
+    margin: 3px;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar ul li a:hover {
+    cursor: pointer;
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+    border-radius: 3rem;
+}
+
+
+
+/*                               Main */
+
+main {
+    /* background: url('/pic/bg9.jpg') center center/cover ; */
+    background-color: white;
+    color: white;
+}
+
+main #intro {
+    padding-left: 3rem;
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url(/bg2.jpeg);
+    background-size: cover;
+}
+
+ #call a{
+    background: url('/call.jpg') center center/cover;
+    width: 9vw;
+    height: 7vh;
+    border-radius: 190px;
+    position: fixed;
+    bottom: 9vh;
+    right: 3vw;
+}
+ #call:hover{
+   width: 6vw;
+   height: 8vh;
+}
+
+main #intro #hello {
+    padding-top: 2rem;
+    margin-bottom: 5px;
+}
+
+main #intro #title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+main #intro #sort_intro p {
+    margin: 0.5rem;
+    font-size: 1.2rem;
+}
+
+main #intro #sort_intro .btn {
+    margin: 7vh 0px;
+    border-color: greenyellow;
+    color: black;
+    padding: 2vh;
+}
+
+main #intro #sort_intro .btn a {
+    padding: 2vh;
+    text-decoration: none;
+    color: black;
+
+}
+
+main #intro #sort_intro .btn:hover {
+    cursor: pointer;
+    border: 2px solid white;
+    background-color: greenyellow;
+    color: black;
+    font-weight: bold;
+}
+
+main #service {
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url('/bg7.jpg') bottom center/cover;
+}
+
+main #service .things {
+    display: flex;
+}
+
+main #service .things .logo img {
+    height: 40vh;
+    width: 30vw;
+    margin-right: 3rem;
+    border-radius: 92px;
+}
+
+main #service .things .things_intro {
+    margin: 2.5rem auto;
+    margin-right: 2rem;
+}
+
+main #service .things .things_intro_title {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+main #qualification {
+    display: flex;
+    justify-content: center;
+    /* background: url('/pic/bg4.jpeg'); */
+}
+
+main #qualification .skills img {
+    width: 13vw;
+    height: 23vh;
+    margin: 8px 3rem;
+}
+
+main h3 {
+    text-align: center;
+    /* background-color: white; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer {
+    background-color: black;
+    color: white;
+    margin-bottom: 123px;
+}
+
+footer div {
+    text-align: center;
+    display: flex;
+}
+
+footer div .details {
+    margin: 5px 3rem;
+}
+
+footer div address p {
+    text-align: justify;
+    margin: 5px 5px;
+}
+
+footer #blogname {
+    display: block;
+}
+
+footer #blogname h3 {
+    align-items: center;
+}
+
+footer #socialmedialogo ul {
+    display: flex;
+    margin: auto;
+}
+
+footer #socialmedialogo ul li {
+    list-style: none;
+    margin: 0px 3rem;
+    margin-top: 10px;
+}
+
+footer #socialmedialogo ul li a {
+    text-decoration: none;
+    padding: 12px;
+    color: white;
+}
+
+footer #creationdate {
+    display: block;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+
+.medialhandlelogo a img {
+    height: 2rem;
+    width: 3rem;
+}

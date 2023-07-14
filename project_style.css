@@ -1,0 +1,12 @@
+body {
+  background-image: url('/bg9.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.card{
+    margin-block: 2rem;
+
+}
+
