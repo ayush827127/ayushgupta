@@ -61,12 +61,12 @@ main {
 
 main #intro {
     padding-left: 3rem;
-    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url(/bg2.jpeg);
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url(bg2.jpeg);
     background-size: cover;
 }
 
  #call a{
-    background: url('/call.jpg') center center/cover;
+    background: url('call.jpg') center center/cover;
     width: 9vw;
     height: 7vh;
     border-radius: 190px;
@@ -118,7 +118,7 @@ main #intro #sort_intro .btn:hover {
 }
 
 main #service {
-    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url('/bg7.jpg') bottom center/cover;
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url('bg7.jpg') bottom center/cover;
 }
 
 main #service .things {
@@ -147,7 +147,7 @@ main #service .things .things_intro_title {
 main #qualification {
     display: flex;
     justify-content: center;
-    /* background: url('/pic/bg4.jpeg'); */
+    /* background: url('pic/bg4.jpeg'); */
 }
 
 main #qualification .skills img {
